@@ -7,8 +7,10 @@
 }
 body{
     background-color: black;
-    /*background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/20/9f/25/59/great-food.jpg) ;*/
     padding-bottom: 3em;
+}
+#logo{
+    display: inline-block;
 }
 header {
     background-color: #C90014; 
@@ -18,21 +20,13 @@ header {
 
 }
 
-li{
-    
-    text-align: right;
-    padding-right: 20px;
-    display: inline;    
-    
+#navegador,li{
+    display: inline-block;
+    box-align: right;
+    padding: 1em;
 }
-nav{
-    
-    text-align: right;
-    padding-right: 30px;
-    
-    
-    
-}
+
+
 section{
     color: antiquewhite;
    
@@ -97,7 +91,6 @@ footer{
 
 h4{
     display: inline-block;
-    text-align: center;
     margin-top: 10px;
 }
 
@@ -105,6 +98,15 @@ article{
     color:white;
 }
 
-h2{
+#articulos{
     color: antiquewhite;
+    margin: 2%;
+}
+
+#redes{
+    display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: right;
+
 }
