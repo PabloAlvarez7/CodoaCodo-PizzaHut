@@ -25,6 +25,8 @@ li {
   display: inline-block;
   box-align: right;
   padding: 1em;
+  position: relative;
+  right: -10%;
 }
 
 section {
