@@ -23,10 +23,8 @@ header {
 #navegador,
 li {
   display: inline-block;
-  box-align: right;
   padding: 1em;
-  position: relative;
-  right: -10%;
+  
 }
 
 section {
@@ -124,5 +122,4 @@ h2 {
   padding: 0%;
   position: relative;
   right: -80%;
-    
 }
