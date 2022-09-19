@@ -100,6 +100,15 @@ a {
   font-size: 20px;
 }
 
+.infografia{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .pie-pagina{
   width: 100%;
   background:linear-gradient( black  , #c90014 30% );
@@ -137,6 +146,13 @@ a {
   color: white;
   margin-bottom: 10px;
   font-size: 16px;
+}
+
+.parrafos p {
+  padding: 14px;
+}
+.parrafos h2 h3{
+  margin: 16px;
 }
 
 .info {
