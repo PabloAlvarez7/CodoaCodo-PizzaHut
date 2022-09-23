@@ -4,121 +4,145 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="CSS/miestilos.css" />
     <link rel="stylesheet" href="./CSS/productos.css">
     <link rel="shortcut icon" href="favicon/pizza_hut.jpg" type="image/x-icon">
     <title>Pizza Hut | Productos</title>
   </head>
   <body>
     <header>
-      <div class="logo">
-        <a href="index.html"
-          ><img
-            src="img/Secondary Logo Opt 1 On White CMYK-01.webp"
-            width="250px"
-            height="80px"
-            alt="Pizza"
-        /></a>
+      <div class="headerSuperior">
+        <div class="logo">
+          <a href="index.html">
+            <img  src="img/Secondary Logo Opt 1 On White CMYK-01.webp"
+              width="250px"
+              height="80px"
+              alt="Pizza"/>
+          </a>
+        </div>
       </div>
-      <div id="navegador">
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="nosotros.html">Nosotros</a></li>
-            <li><a href="Productos.html"><u><strong>Productos</strong></u></a></li>
-            <li><a href="sucursales.html">Sucursales</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-          </ul>
-        </nav>
+      <div class="containerMenu">
+        <div class="menu">
+          <nav>
+            <ul>
+              <li><a href="index.html" id="selected">Home</a></li>
+              <li><a href="nosotros.html">Nosotros</a></li>
+              <li>
+                <a href="productos.html">Productos</a>
+                <ul class="submenuProductos">
+                  <li><a href="#titulo_ofertas">Ofertas</a></li>
+                  <li><a href="#titulo_pizzas">Pizzas</a></li>
+                  <li><a href="#titulo_bebidas">Bebidas</a></li>
+                  <li><a href="">Postres</a></li>
+                </ul>
+              </li>
+              <li><a href="sucursales.html">Sucursales</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
-    <div Class="Container" id="Container_Menu">
-      <ul class="Menu"> 
-          <li><a href="#titulo_ofertas">Ofertas</a></li>
-          <li><a href="#titulo_pizzas">Pizzas</a></li>
-          <li><a href="#titulo_bebidas">Bebidas</a></li>
-          <li><a href="#titulo_postres">Postres</a></li>   
-      </ul>
-     </div>
      <div class="titulo" id="titulo_ofertas">
       <h1>Nuestras Ofertas</h1>
      </div> 
-     <section class="box_img" id="box_img_ofertas">
-      <img src="./img/productos/ofertas/Combo1.jpg" alt="Combo_1" class="img" id="oft_combo1">
-      <img src="./img/productos/ofertas/Combo2.jpeg" alt="Combo_2" class="img" id="oft_combo2">
-      <img src="./img/productos/ofertas/Combo3.jpeg" alt="Combo_3" class="img" id="oft_combo3">
-     </section>
-     <section class="box_txt" id="box_txt_ofertas">
-       <h5>Combo de 2 pizzas medianas</h5>
-       <h5>Combo de 2 pizzas familiares</h5>
-       <h5> Pizza grande + Coca-Cola 1.5 lts sin azúcar </h5>
-     </section>
+     <div class="box_img" id="box_img_ofertas">
+        <div class="box_img_item">
+          <img src="./img/productos/ofertas/Combo1.jpg" alt="Combo_1" class="img" id="oft_combo1">
+          <h4>Combo de 2 pizzas medianas</h4>
+        </div>
+        <div class="box_img_item">
+          <img src="./img/productos/ofertas/Combo2.jpeg" alt="Combo_2" class="img" id="oft_combo2">
+          <h4>Combo de 2 pizzas familiares</h4>
+        </div>
+        <div class="box_img_item">
+          <img src="./img/productos/ofertas/Combo3.jpeg" alt="Combo_3" class="img" id="oft_combo3">
+          <h4>Pizza grande + Coca-Cola 1.5 lts zero</h4>
+        </div>
+     </div>
      <div class="titulo" id="titulo_pizzas">
       <h1>Pizzas</h1>
      </div> 
-    <section class="box_img" id="box_img_pizzas_first">
-      <img src="./img/productos/pizzas/Cheese.webp" alt="Cheese pizza" class="img" id="pizza_cheese">
-      <img src="./img/productos/pizzas/Supreme.webp" alt="Supreme pizza" class="img" id="pizza_supreme">
-      <img src="./img/productos/pizzas/Veggie lovers.webp" alt="Veggie lovers pizza" class="img" id="pizza_veggie">
-    </section>
-    <section class="box_txt" id="box_txt_pizzas_first">
-      <h5>Cheese pizza</h5>
-      <h5>Supreme pizza</h5>
-      <h5>Veggie lovers pizza</h5>
-    </section>
-    <section class="box_img" id="box_img_pizzas_second">
-      <img src="./img/productos/pizzas/Meat lovers.jpg" alt="Meat lovers" class="img" id="pizza_meat">
-      <img src="./img/productos/pizzas/Margarita.jpg" alt="Margarita" class="img" id="pizza_margarita">
-    </section>
-    <section class="box_txt" id="box_txt_pizzas_second">
-      <h5>Meat lovers pizza</h5>
-      <h5>Margarita pizza</h5>
-    </section>
+    <div class="box_img" id="box_img_pizzas">
+      <div class="box_img_item">
+        <img src="./img/productos/pizzas/Cheese.jpg" alt="Cheese pizza" class="img" id="pizza_cheese">  
+        <h4>Cheese</h4>
+      </div>
+      <div class="box_img_item">
+        <img src="./img/productos/pizzas/Supreme.jpg" alt="Supreme pizza" class="img" id="pizza_supreme">
+        <h4>Supreme</h4>
+      </div>
+      <div class="box_img_item">
+        <img src="./img/productos/pizzas/Veggie lovers.webp" alt="Veggie lovers pizza" class="img" id="pizza_veggie">
+        <h4>Veggie lovers</h4>
+      </div>
+      <div class="box_img_item">
+        <img src="./img/productos/pizzas/Meat lovers.jpg" alt="Meat lovers" class="img" id="pizza_meat">
+        <h4>Meat lovers</h4>
+      </div>
+      <div class="box_img_item">
+        <img src="./img/productos/pizzas/Margarita.jpg" alt="Margarita" class="img" id="pizza_margarita">
+        <h4>Margarita</h4>
+      </div>
+      <div class="box_img_item">
+        <img src="./img/productos/pizzas/Pepperoni.jpg" alt="Pepperoni" class="img" id="pizza_Pepperoni">
+        <h4>Pepperoni</h4>
+      </div>
+      <div class="box_img_item">
+        <img src="./img/productos/pizzas/Hawaiian.jpg" alt="Hawaiian" class="img" id="pizza_Hawaiian">
+        <h4>Hawaiian</h4>
+      </div>
+      <div class="box_img_item">
+        <img src="./img/productos/pizzas/Pepperoni y Champiñones.jpg" alt="Pepperoni y Champiñones" class="img" id="pizza_PepperoniChamp">
+        <h4>Pepperoni y Champiñones</h4>
+      </div>
+      <div class="box_img_item">
+        <img src="./img/productos/pizzas/Armala.png" alt="Armala" class="img" id="pizza_Armala">
+        <h4>Armala a tu gusto!</h4>
+      </div>
+    </div>
     <div class="titulo" id="titulo_bebidas">
       <h1>Bebidas</h1>
      </div> 
-    <section class="box_img" id="box_img_bebidas">
-      <img src="./img/productos/ofertas/Combo1.jpg" alt="Combo_1" class="img" id="oft_combo1">
-      <img src="./img/productos/ofertas/Combo2.jpeg" alt="Combo_2" class="img" id="oft_combo2">
-      <img src="./img/productos/ofertas/Combo3.jpeg" alt="Combo_3" class="img" id="oft_combo3">
-    </section>
-    <div class="titulo" id="titulo_postres">
+     <div class="box_img" id="box_img_bebidas"></div>
+    </div>
+     <!--
+     <div class="titulo" id="titulo_postres">
       <h1>Postres</h1>
      </div> 
     <section class="box_img" id="box_img_postres">
       <img src="./img/productos/ofertas/Combo1.jpg" alt="Combo_1" class="img" id="oft_combo1">
       <img src="./img/productos/ofertas/Combo2.jpeg" alt="Combo_2" class="img" id="oft_combo2">
       <img src="./img/productos/ofertas/Combo3.jpeg" alt="Combo_3" class="img" id="oft_combo3">>
-    </section>
-
+    </section>  
+    -->
     <footer class="pie-pagina">
-      <div class="grupo-1">
-          <div class="caja">
-              <figure>
-                  <a href="#">
-                      <img src="img/Pizza_Hut_1967-1999_logo.svg.png"  alt="logo-pizza-hut">
-                  </a>
-              </figure>
-          </div>
-          <div class="caja">
-              <h2>Nosotros</h2>
-              <p>Lorem ipsum dolor sit amet consectetur a</p>
-              <p>Lorem ipsum dolor sit amet consectetur a</p>
-              </p>
-          </div>
-          <div class="caja">
-            <h2>Siguenos</h2>
-              <div class="red-social">
-                   <a href="https://www.facebook.com/pizzahutus/" target="_blank" ><img src="img/social_facebook_fb_75.png" width="32px" height="32px"></a>
-                      <a href="https://www.instagram.com/pizzahut/?hl=en" target="_blank"><img src="img/social_instagram_43.png" target="_blank"width="32px" height="32px"></a>
-                      <a href="https://www.tiktok.com/@pizzahut?lang=en" target="_blank"><img src="img/logo_social_media_brand_application_video_tik_tok_icon_210374.png" width="32px" height="32px"></a>
-                      <a href="https://www.youtube.com/user/pizzahut" target="_blank"><img src="img/youtube_logo_icon_214667.png" width="32px" height="32px" ></a>
-                  </div>
-          </div>
-      </div>
-      <div class="grupo-2">
-          <small>&copy; 2022 <b>Pizza Hut</b>- Todos los derechos resevados.</small>
-      </div>
+    <div class="grupo-1">
+        <div class="caja">
+            <figure>
+                <a href="#">
+                    <img src="img/Pizza_Hut_1967-1999_logo.svg.png"  alt="logo-pizza-hut">
+                </a>
+            </figure>
+        </div>
+        <div class="caja">
+            <h2>Nosotros</h2>
+            <p>Lorem ipsum dolor sit amet consectetur a</p>
+            <p>Lorem ipsum dolor sit amet consectetur a</p>
+            </p>
+        </div>
+        <div class="caja">
+          <h2>Siguenos</h2>
+            <div class="red-social">
+                 <a href="https://www.facebook.com/pizzahutus/" target="_blank" ><img src="img/social_facebook_fb_75.png" width="32px" height="32px"></a>
+                    <a href="https://www.instagram.com/pizzahut/?hl=en" target="_blank"><img src="img/social_instagram_43.png" target="_blank"width="32px" height="32px"></a>
+                    <a href="https://www.tiktok.com/@pizzahut?lang=en" target="_blank"><img src="img/logo_social_media_brand_application_video_tik_tok_icon_210374.png" width="32px" height="32px"></a>
+                    <a href="https://www.youtube.com/user/pizzahut" target="_blank"><img src="img/youtube_logo_icon_214667.png" width="32px" height="32px" ></a>
+                </div>
+        </div>
+    </div>
+    <div class="grupo-2">
+        <small>&copy; 2022 <b>Pizza Hut</b> - Todos los derechos resevados.</small>
+    </div>
   </footer>
 </body>
 </html>
