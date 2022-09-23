@@ -9,7 +9,7 @@ body {
   background-color: #fffbf6;
   
 }
-#logo {
+.logo {
   display: inline-block;
 }
 header {
