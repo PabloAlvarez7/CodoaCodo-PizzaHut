@@ -283,3 +283,7 @@
   gap: 50px 60px;
   padding-left: 100px;
 }
+#box_img_postres{
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 300px 300px;
+}
