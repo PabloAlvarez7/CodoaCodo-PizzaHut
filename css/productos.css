@@ -273,3 +273,13 @@
   width: 300px;
   height: 250px;
 }
+#box_img_bebidas > div > img{
+  width: 200px;
+  height: 225px;
+}
+#box_img_bebidas{
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 250px 250px;
+  gap: 50px 60px;
+  padding-left: 100px;
+}
