@@ -2,9 +2,9 @@
   margin: 0;
   padding: 0;
   position: relative;
-  font-family: 'Combo', cursive;
   box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 
 
 /*A partir de aca todo corresponde al header*/
@@ -201,7 +201,7 @@ nav ul li:hover ul{
 /*FOOTER*/
 .pie-pagina{
   width: 100%;
-  background:linear-gradient( black  , #c90014 30% );
+  background:  #c90014 ;
 }
 
 .pie-pagina .grupo-1{
@@ -245,7 +245,7 @@ nav ul li:hover ul{
   margin: 16px;
 }
 
-.info {
+.infografia {
   
   text-align: center;
 }
