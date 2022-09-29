@@ -135,7 +135,8 @@ nav ul li:hover ul{
 
 /*CARRUSEL*/
 .slider {
-  width: 800px;
+  width: 60% ;
+ 
   margin: 25px auto 0;
   overflow: hidden;
 }
