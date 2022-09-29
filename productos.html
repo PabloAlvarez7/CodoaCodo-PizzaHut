@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./CSS/productos.css">
+    <link rel="stylesheet" href="./CSS/miestilos.css">
     <link rel="shortcut icon" href="favicon/pizza_hut.jpg" type="image/x-icon">
     <title>Pizza Hut | Productos</title>
   </head>
@@ -24,15 +25,22 @@
         <div class="menu">
           <nav>
             <ul>
-              <li><a href="index.html" id="selected">Home</a></li>
-              <li><a href="nosotros.html">Nosotros</a></li>
+              <li><a href="index.html" >Home</a></li>
+              <li><a href="nosotros.html">Nosotros</a>
+                  <ul class="submenu">
+                    <li><a href="nosotros.html#quienes_somos">Quienes Somos</a></li>
+                    <li><a href="nosotros.html#que_mueve">Que nos Mueve</a></li>
+                    <li><a href="nosotros.html#de_donde">De Donde Venimos</a></li>
+                      
+                    </ul>
+              </li>
               <li>
-                <a href="productos.html">Productos</a>
-                <ul class="submenuProductos">
-                  <li><a href="#titulo_ofertas">Ofertas</a></li>
-                  <li><a href="#titulo_pizzas">Pizzas</a></li>
-                  <li><a href="#titulo_bebidas">Bebidas</a></li>
-                  <li><a href="#titulo_postres">Postres</a></li>
+                <a href="productos.html" id="selected">Productos</a>
+                <ul class="submenu">
+                  <li><a href="productos.html#titulo_ofertas">Ofertas</a></li>
+                  <li><a href="productos.html#titulo_pizzas">Pizzas</a></li>
+                  <li><a href="productos.html#titulo_bebidas">Bebidas</a></li>
+                  <li><a href="productos.html#titulo_postres">Postres</a></li>
                 </ul>
               </li>
               <li><a href="sucursales.html">Sucursales</a></li>
