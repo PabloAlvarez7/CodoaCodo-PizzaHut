@@ -214,6 +214,11 @@ h3{
   margin-top: 20px;
 }
 
+#infografia {
+  
+  text-align: center;
+}
+
 /*FIN NOSOTROS*/
 
 /*FOOTER*/
@@ -263,10 +268,7 @@ h3{
   margin: 16px;
 }
 
-.infografia {
-  
-  text-align: center;
-}
+
 
 .pie-pagina .grupo-1 .caja  .red-social a{
   display: inline-block;
