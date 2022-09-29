@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 * {
   margin: 0;
   padding: 0;
   position: relative;
+  font-family: 'Didact Gothic', sans-serif;
   box-sizing: border-box;
+  text-decoration: none;
 }
-@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 
 
 /*A partir de aca todo corresponde al header*/
@@ -38,10 +40,10 @@ header{
   padding: 0px 250px;
 
 }
-menu{
+.menu{
   max-width: 2000px;
   margin: auto;
-  height: 100%;
+  height: 70%;
 }
 nav{
   height: 100%;
@@ -83,7 +85,7 @@ nav > ul > li > a:hover{
   background:  black;
   position: absolute;
   top: 90px;
-  left: -5px;
+  left: -7px;
   padding: 14px 0px;
   visibility: hidden;
   opacity: 0;
@@ -99,12 +101,12 @@ nav > ul > li > a:hover{
   content: '';
   width: 0;
   height: 0;
-  border-left: 12px solid transparent;
-  border-right: 12px solid transparent;
-  border-bottom: 12px solid black;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid black;
   position: absolute;
-  top:-12px;
-  left: 20px;
+  top:-17px;
+  left: 5px;
 }
 /* Para la visibilidad del submenu*/
 nav ul li:hover ul{
@@ -117,7 +119,7 @@ nav ul li:hover ul{
   display: block;
   padding: 6px;
   font-size: 14px;
-  padding-left: 14 px;
+  padding-left: 14px;
   margin-top: 10px;
   transition: all 300ms ease;
 }
