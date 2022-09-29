@@ -200,6 +200,21 @@ nav ul li:hover ul{
 
 /*FIN CARRUSEL*/
 
+/* NOSOTROS*/
+
+h3{
+  color: #c90014;
+  
+}
+#ceos{
+  margin-bottom: 20px;
+}
+.CEO{
+  text-align: center;
+  margin-top: 20px;
+}
+
+/*FIN NOSOTROS*/
 
 /*FOOTER*/
 .pie-pagina{
