@@ -1,0 +1,50 @@
+.containerSucursales{
+    display: grid;
+    gap: 50px;
+    margin-left: 100px;
+    margin-top: 25px;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 400px;
+}
+h1{
+    padding-left: 50px;
+    margin-top: 20px;
+}
+h2{
+    padding-left: 100px;
+    margin-top: 40px;
+}
+h3{
+    padding-bottom: 20px;
+}
+
+iframe{
+    width: 350px;
+    height:350px;
+}
+.containerInformacion{
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+.horarios{
+    text-align: center;
+}
+
+.subtitulo{
+    margin-top: 0px;
+}
+        
+.imgProximamente{
+    margin-top: 20px;
+    width: 350px;
+    height: 350x;
+    margin-left: 100px;
+}
+.contactanos{
+    margin-top: 10px;
+    margin-bottom: 40 px;
+}
+.contactanos > a{
+    color:#c90014 ;
+    text-decoration: none;
+}
