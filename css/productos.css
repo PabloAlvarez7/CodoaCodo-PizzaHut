@@ -1,11 +1,13 @@
 /* Productos */
 .titulo{
-  padding-left: 50px;
+  padding-left: 150px;
+  margin-top: 20px;
 }
 .box_img{
   display: grid;
   gap: 50px 50px;
-  padding-left: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
   padding-top: 50px;
 }
 #box_img_ofertas{

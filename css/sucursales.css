@@ -2,15 +2,16 @@
     display: grid;
     gap: 50px;
     margin-left: 100px;
+    margin-right: 100px;
     margin-top: 25px;
     grid-template-columns: 350px 350px 350px;
     grid-template-rows: 400px;
 }
 h1{
-    padding-left: 50px;
+    padding-left: 100px;
     margin-top: 20px;
 }
-h2{
+.sucursales_h2{
     padding-left: 100px;
     margin-top: 40px;
 }
@@ -40,11 +41,11 @@ iframe{
     height: 350x;
     margin-left: 100px;
 }
-.contactanos{
+#contactanos{
     margin-top: 10px;
     margin-bottom: 40 px;
 }
-.contactanos > a{
+#contactanos > a{
     color:#c90014 ;
     text-decoration: none;
 }

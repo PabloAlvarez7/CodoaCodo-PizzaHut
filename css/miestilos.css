@@ -272,6 +272,7 @@ h3{
 .CEO{
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .CEO img{
@@ -279,8 +280,17 @@ h3{
   margin-right: 100px;
   box-shadow: 3px 3px 6px #700202;
 }
-
-
+.img_historia{
+  text-align: center;
+}
+.parrafos{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.titulo_historia{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 /*FIN NOSOTROS*/
 
 /*FOOTER*/
