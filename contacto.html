@@ -4,9 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Pizza, Bebidas">
+		<meta name="description" content="Pizzahut  una compañia que brinda las mejores pizzas">
     <link rel="stylesheet" href="CSS/miestilos.css" />
     <link rel="stylesheet" href="css/contacto.css">
     <link rel="shortcut icon" href="favicon/pizza_hut.jpg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/8d2a53c098.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     
     <title>Pizza Hut | Contacto</title>
   </head>
@@ -54,28 +58,79 @@
         </div>
       </div>
     </header>
-    <div class="container-form">
-      <div class="info-form">
-          <h2>Contactanos</h2>
-          <p class="p">Si tenes alguna duda o sugerencia que quieras hacernos, podés contactarte con nosotros. A Pizza Hut le interesa el cliente y su tranquilidad.</p>
-          <a href="#"> <i class="fa fa-phone">
-          </i>(+54) 9 11-3344-2233</a>
-          <a class="a" href="#"> <i class="fa fa-envelope">
-          </i>pizzahut@hotmail.com</a>
-          <a class="a" href="#"> <i class="fa fa-map-marked">
-          </i>Buenos Aires, Argentina</a>
-      </div>
-      <form class="form" action="https://formspree.io/f/xeqdgeay"
-      method="POST">
-          <label for="nombre">Nombre:</label>
-          <input type="text" name="nombre" placeholder="Ingrese su nombre" class="campo">
-          <label for="email">Correo:</label>
-          <input type="email" name="email" placeholder="Ingrese su correo" class="campo">
-          <label for="mensaje">Mensaje:</label>
-          <textarea name="mensaje" placeholder="Ingrese su mensaje"></textarea>
-          <input type="submit" name="enviar" value="Enviar" class="btn-enviar">
-      </form>
-    </div>
+    <div class="animate__animated animate__backInUp" class="contenido">
+
+      <h1 class="logo">Contacto</h1>
+
+      
+      <div class="contenedor-contacto">
+          <div class="formulario-contacto">
+              <h3 class="subtitulo">Un operador se pondrà en contacto a la brevedad, asegurese de escribir sus datos correctamente para mejorar la comunicación</h3>
+              <form 
+                name="fvalida"
+                action="https://formspree.io/f/xeqdgeay"
+                method="post"
+                target="_blank"
+                onsubmit="event.preventDefault();">
+                
+                  <p>
+                      <label> Nombre:</label>
+                      <input 
+                        type="text" 
+                        name="nombre" 
+                        id="nombre"
+                        >
+                  </p>
+
+                  <p>
+                      <label> Correo:</label>
+                      <input 
+                        type="email" 
+                        name="email" 
+                        id="email">
+                  </p>
+
+                  <p>
+                      <label> Telefono: (Opcional)</label>
+                      <input 
+                        type="tel"
+                        name="telefono" 
+                        id="telefono">
+                  </p>
+                  <p>
+                      <label >Asunto: (Opcional)</label>
+                      <input 
+                        type="text" 
+                        name="asunto" 
+                        id="asunto">
+                  </p>
+                  <p class="bloque">
+                      <label> Mensaje:</label>
+                      <textarea 
+                        name="mensaje" 
+                        rows="3" 
+                        id="mensaje" ></textarea>
+                  </p>
+                  <p class="bloque">
+                  <button 
+                    type="submit"
+                    onclick="valida_envia()">
+                    Enviar
+                  </button>
+                  </p>
+              </form>
+            </div>
+            <div class="informacion-contacto">
+              <h4> Mas informacion<h4>
+                  <ul>
+                      <li><i class="fa fa-map-marker-alt" id="icono"></i>  Buenos aires,Argentina</li>
+                      <li><i class="fas fa-phone" id="icono"></i>  (+54) 9 11-3344-2233</li>
+                      <li><i class="fas fa-envelope-open-text" id="icono"></i>  pizzahut@hotmail.com</li>
+                  </ul>
+                  <span><img src="img/logohut.png" alt="" width="200px" height="200px" class="logohut"></span>
+            </div>
+          </div>
+        </div>
 
     <footer class="pie-pagina">
       <div class="grupo-1">
@@ -107,5 +162,6 @@
           <small>&copy; 2022 <b>Pizza Hut</b>- Todos los derechos resevados.</small>
       </div>
   </footer>
+  <script src="js/validar.js"></script>
   </body>
 </html>
