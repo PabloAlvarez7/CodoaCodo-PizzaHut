@@ -1,4 +1,4 @@
-const API_URL = "http://worldtimeapi.org/api/timezone/America/Argentina/Buenos_Aires";
+const API_URL = "https://worldtimeapi.org/api/timezone/America/Argentina/Buenos_Aires";
 const openHour = 9;
 const closeHour = 23;
 const amount = 3 ; //Cantidad de locales
