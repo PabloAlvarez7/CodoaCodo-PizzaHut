@@ -1,6 +1,6 @@
 const API_URL = "https://worldtimeapi.org/api/timezone/America/Argentina/Buenos_Aires";
-const openHour = 9;
-const closeHour = 23;
+const openHour = 900;
+const closeHour = 2300;
 const amount = 3 ; //Cantidad de locales
 const xhr = new XMLHttpRequest();
 
@@ -10,9 +10,12 @@ function onRequestHandler(){
         
         var dateTime= new Date(data['utc_datetime']);
         var hours = dateTime.getHours();
+        var min= dateTime.getMinutes();
+        var actualTime = hours*100 + min;
         console.log(data);
         console.log(hours);
-        if(openHour< hours && hours<closeHour){
+        console.log(min);
+        if(openHour< actualTime && actualTime<closeHour){
             for(let i= 0; i<amount ; i++){
                 document.getElementsByClassName("estadoLocal")[i].innerHTML = "Local Abierto";
                 document.getElementsByClassName("estadoLocal")[i].style.color= "green";
