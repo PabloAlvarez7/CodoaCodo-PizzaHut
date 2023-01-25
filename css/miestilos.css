@@ -27,7 +27,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient( #c90014 70% , black )
+  background: linear-gradient( #c90014 70% , black );
 
 }
 .logo{
